@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Generate helpful GitHub Assistant images">
     <meta name="author" content="@Brammm">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" value="Generate helpful GitHub Assistant images">
     <meta name="twitter:title" content="GitHub Assistant Generator">
     <meta name="twitter:description" content="Generate helpful GitHub Assistant images">
     <meta name="twitter:creator" content="@brammm">
-    <-- Twitter Summary card images must be at least 120x120px -->
     <meta name="twitter:image" content="https://githubassistant.online/img.php?s=Hello+there...">
 
     <!-- Open Graph data -->
