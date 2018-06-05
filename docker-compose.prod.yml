@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+    bitcode-nginx:
+        image: brammm/clippy-nginx
+        networks:
+            - web
+        labels:
+          - "traefik.backend=clippy-nginx"
+          - "traefik.docker.network=web"
+          - "traefik.frontend.rule=Host:githubassistant.online"
+          - "traefik.enable=true"
+          - "traefik.port=80"
+          - "traefik.default.protocol=http"
+
+    clippy-php:
+        image: brammm/clippy-php
+        networks:
+            - web
+
+networks:
+  web:
+    external: true

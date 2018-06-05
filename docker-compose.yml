@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+    clippy-nginx:
+        ports:
+            - 8088:80
+        build:
+            context: ./
+            dockerfile: .docker/nginx/Dockerfile
+        image: brammm/clippy-nginx
+        volumes:
+            - ./public:/app/public
+
+    clippy-php:
+        build:
+            context: ./
+            dockerfile: .docker/php/Dockerfile
+        image: brammm/clippy-php
+        volumes:
+            - ./:/app
