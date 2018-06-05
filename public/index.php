@@ -40,7 +40,7 @@
         <h2>How to use</h2>
         Paste the generated image link in a comment with the following Markdown:
         <pre><code>
-![](https://githubassistant.com/img.php?Hello+there...)
+![](https://githubassistant.online/img.php?Hello+there...)
         </code></pre>
     </main>
 
