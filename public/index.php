@@ -3,8 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Generate helpful Git Assistant images">
+    <meta name="description" content="Generate helpful GitHub Assistant images">
     <meta name="author" content="@Brammm">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="Generate helpful GitHub Assistant images">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Generate helpful GitHub Assistant images" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://githubassistant.online/" />
+    <meta property="og:image" content="https://githubassistant.online/img.php?s=Hello+there..." />
+    <meta property="og:description" content="Generate helpful GitHub Assistant images" />
 
     <title>GitHub Assistant Generator</title>
 
