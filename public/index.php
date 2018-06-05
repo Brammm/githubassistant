@@ -17,7 +17,7 @@
     <meta name="twitter:image" content="https://githubassistant.online/img.php?s=Hello+there...">
 
     <!-- Open Graph data -->
-    <meta property="og:title" content="Generate helpful GitHub Assistant images" />
+    <meta property="og:title" content="GitHub Assistant Generator" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://githubassistant.online/" />
     <meta property="og:image" content="https://githubassistant.online/img.php?s=Hello+there..." />
@@ -42,7 +42,7 @@
     </header>
 
     <main role="main" class="inner cover">
-        <h1 class="cover-heading">Let the GitHub Assistant help you</h1>
+        <h1 class="cover-heading">Introducing: the GitHub Assistant</h1>
         <p class="lead">With the recent acquisition of <a href="https://github.com">GitHub</a> by <a href="https://microsoft.com">Microsoft</a>, it was only a matter of time before the first integrations appeared.</p>
         <img src="/img.php" alt="GitHub Assistant at work" height="300" />
         <h2>Generate your own</h2>
