@@ -8,6 +8,11 @@
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" value="Generate helpful GitHub Assistant images">
+    <meta name="twitter:title" content="GitHub Assistant Generator">
+    <meta name="twitter:description" content="Generate helpful GitHub Assistant images">
+    <meta name="twitter:creator" content="@brammm">
+    <-- Twitter Summary card images must be at least 120x120px -->
+    <meta name="twitter:image" content="https://githubassistant.online/img.php?s=Hello+there...">
 
     <!-- Open Graph data -->
     <meta property="og:title" content="Generate helpful GitHub Assistant images" />
