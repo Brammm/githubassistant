@@ -3,7 +3,16 @@
 header('Content-Type: image/png');
 $image = imagecreatefromjpeg(__DIR__ . '/../resources/background.jpg');
 
-$text = $_GET['s'] ?? '';
+$randomStrings = [
+    'Hello there...',
+    'It looks like you have some merge conflicts.',
+    'Have you run the linter?',
+    'Have you run the tests?',
+    'It looks like there are no tests for this Pull Request',
+];
+
+
+$text = $_GET['s'] ?? $randomStrings[array_rand($randomStrings)];
 $black = imagecolorallocate($image, 0, 0, 0);
 
 $strings = explode("\n", wordwrap($text, 40));

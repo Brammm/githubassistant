@@ -44,7 +44,7 @@
     <main role="main" class="inner cover">
         <h1 class="cover-heading">Let the GitHub Assistant help you</h1>
         <p class="lead">With the recent acquisition of <a href="https://github.com">GitHub</a> by <a href="https://microsoft.com">Microsoft</a>, it was only a matter of time before the first integrations appeared.</p>
-        <img src="/img.php?s=Hello+there+..." alt="Hello there..." height="300" />
+        <img src="/img.php" alt="GitHub Assistant at work" height="300" />
         <h2>Generate your own</h2>
         <form method="get" action="img.php">
             <div class="input-group">
